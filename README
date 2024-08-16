@@ -1,0 +1,35 @@
+# To Do List
+
+A simple To Do List application built with HTML, Tailwind CSS, and JavaScript.
+
+## Features
+
+- Add tasks to the list.
+- Mark tasks as completed by clicking on them (the task will be crossed out).
+- Delete tasks by double-clicking on them.
+- Task appearance animation when added.
+
+## Project Structure
+
+### Front-End
+
+The front-end is built using:
+
+- **HTML**: Provides the structure of the page.
+- **Tailwind CSS**: Used for styling the page, leveraging utility classes for layout and design.
+- **Custom CSS**: For custom animations.
+
+### Back-End
+
+The back-end uses plain JavaScript to handle the following interactions:
+
+- Adding a task to the list.
+- Marking a task as completed.
+- Deleting a task from the list.
+
+## Dependencies
+
+- **Tailwind CSS**: Included via a CDN to style the user interface.
+  
+  ```html
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
